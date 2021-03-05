@@ -1,0 +1,54 @@
+<!DOCTYPE html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Assets/css/style.css" rel="stylesheet">
+    <script src="./Assets/js/script.js" defer></script>
+    <title>Marine's Passwords</title>
+</head>
+
+<body>
+  <div class="container">
+    <!--Title-->
+    <h2 class="title">Password Generator</h2>
+    <!--Result Box-->
+    <div class="result">
+      <div class="result__title field-title">Generated Password</div>
+      <div class="result__info right">click to copy</div>
+      <div class="result__info left">copied!</div>
+      <div class="result__viewbox" id="result">YOUR UNIQUE PASSWORD HERE</div>
+      <button id="copy-btn" style="--x: 0; --y: 0"><i class="far far-copy"></i></button>
+    </div>
+    <!--Slider-->
+    <div class="length range__slider" data-min="8" data-max="128">
+      <div class="length__title field-title" data-length='0'>length:</div>
+      <input id="slider" type="range" min="8" max="128" value="70" />
+    </div>
+    <!--Settings Section-->
+    <div class="settings">
+      <span class="settings__title field-title">Take your pick</span>
+      <div class="setting">
+        <input type="checkbox" id="uppercase" checked />
+        <label for="uppercase">Include Uppercase</label>
+      </div>
+      <div class="setting">
+        <input type="checkbox" id="lowercase" checked />
+        <label for="lowercase">Include Lowercase</label>
+      </div>
+      <div class="setting">
+        <input type="checkbox" id="number" checked />
+        <label for="number">Include Numbers</label>
+      </div>
+      <div class="setting">
+        <input type="checkbox" id="symbol" checked />
+        <label for="symbol">Include Symbols</label>
+      </div>
+    </div>
+    <!--Button to Generate Password-->
+    <button class="btn generate" id="generate">Generate Your Password</button>
+  </div>
+  
+</body>
+
+</html>
