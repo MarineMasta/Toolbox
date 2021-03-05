@@ -1,0 +1,165 @@
+    /*General Style*/
+      body {
+          font-size: 20px;
+          font-family:Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      /* Padding for all Body Sections */
+      .container-fluid {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+      /* Nav Bar */
+      .navbar {
+          padding-top: 15px;
+          padding-bottom: 15px;
+          border: 0;
+          border-radius: 0;
+          margin-bottom: 0;
+          font-size: 16px;
+          letter-spacing: 5px;
+      }
+
+      /*Nav Bar Marine Bruno Header*/
+      .navbar-brand {
+          font-weight: 900;
+          font-size: 35px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          margin-left: 100px;
+      }
+
+      #myNavbar {
+          margin-right: 100px ;
+      }
+
+      /*Nav Bar Menu/List*/
+      .navbar-nav li a {
+          border: 15px solid #333333;;
+      }
+
+      /*Nav Bar Hover Underline and Color Change*/
+      .navbar-nav li a:hover {
+          color:tomato !important;
+          text-decoration: underline;
+      }
+
+      /* Photo Div */
+      .bg-1 {
+          background-image: url("https://raw.githubusercontent.com/MarineMasta/Alpaca-Portfolio/main/assets/images/charcoal.jpg");
+          height: auto;
+          width: auto;
+          background-size: cover;
+          color:white;
+          font-style: italic;
+          font-variant: small-caps;;
+      }
+
+      /*Marine Photo Blurry Feature*/
+      .img-circle {
+            opacity: 80%;
+            display: inline;
+            height: 300px;
+        }
+
+        /*Marine Photo Unblur with Hover*/
+      .img-circle:hover {
+            opacity: 100%;
+    }
+
+
+
+      /* Time Section */
+      .bg-2 {
+          background-color: white;
+          color:#333333;
+      }
+      #Time h2 {
+          padding-bottom: 50px;
+          font-style: italic;
+          font-size: 30px;
+      }
+
+      #date {
+          font-size: 40px;
+          font-weight: 800;
+      }
+
+      /* My Work */
+      .bg-3 {
+          background-color:#333333;
+          color: white;
+      }
+      #WHAT h2 {
+        padding-bottom: 50px;
+        font-weight: 800;
+        font-size: 40px;
+    }
+      #WHAT img {
+          margin-bottom: 20px;
+      }
+      #WHAT a {
+          color: tomato;
+      }
+      #first {
+          width: 100%;
+          display: inline;
+      }
+            /*Changes the % of the screen taken up by the first project image when viewed on devices with screen width over 768px*/
+            @media (min-width: 768px) {
+                #first {
+                width: 35%;
+                }
+            }
+      #project2, #project3, #project4 {
+          width: 75%;
+          display: inline;
+      }
+
+      /* Contact Me*/
+      .bg-4 {
+          background-color: white;
+          color:#333333;
+      }
+      #CONTACT h2 {
+        padding-bottom: 50px;
+        font-weight: 800;
+        font-size: 40px;
+      }
+      .contacter {
+          color: tomato;
+      }
+      .contacter:hover {
+          color: maroon;
+          
+      }
+      .contacter:active {
+          text-decoration: underline;
+      }
+      .contacter:visited {
+          color:maroon
+      }
+      #facebook {
+          width: 300px;
+          height: 500px;
+          align-self: center;
+      }
+            /*Changes the size of the facebook plugin depending on the screen size*/
+            @media (min-width:481px) {
+                #facebook {
+                width: 450px;
+                }
+            }
+            @media (min-width: 768px) {
+                #facebook {
+                    width: 500px;
+                }
+            }
+
+      /* Footer */
+      .bg-5 {
+          background-color: #333333;
+          color:white;
+          font-weight: 900;
+      }
