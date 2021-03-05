@@ -7,7 +7,7 @@
 body {
   width: 100%;
   height: 100vh;
-  background-image: url(/Assets/images/charcoal.jpg);
+  background-image: url("https://raw.githubusercontent.com/MarineMasta/Alpaca-Portfolio/main/assets/images/charcoal.jpg");
   background-size: cover;
   justify-content: center;
   align-items: center;
