@@ -4,7 +4,7 @@ body {
   width: 100%;
   height: 100vh;
   background-image: url("https://static3.depositphotos.com/1006282/209/i/600/depositphotos_2093332-stock-photo-charcoal.jpg");
-  background-size: cover;
+  background-size: 680px;
   justify-content: center;
   align-items: center;
   font-size: 20px;
@@ -47,22 +47,23 @@ body {
 }
  /*Generator Container*/
 .generator {
-  margin-top: 80px;
+  margin-top: 90px;
   margin-left: auto;
   margin-right: auto;
   align-content: center;
   width: 900px;
-  height: 600px;
+  height: 650px;
   padding: 10px 25px;
   background: rgb(255, 99, 71, 1);
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
-  font-family: "Montserrat";
+  font-family: sans-serif;
 }
 
 @media only screen and (max-width: 800px) {
   .generator {
-    width: 300px
+    width: 300px;
+    height: 650px
   }
 }
 
@@ -127,7 +128,7 @@ body {
   transform: translate(-50%, -50%) scale(0.1);
 }
 
-.field-title {
+.slide_length {
   position: absolute;
   top: -10px;
   left: 8px;
@@ -138,6 +139,23 @@ body {
   font-size: 1.5rem;
   pointer-events: none;
   user-select: none;
+}
+
+.field-title {
+  position: absolute;
+  top: -20px;
+  left: 8px;
+  transform: translateY(-50%);
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  pointer-events: none;
+  user-select: none;
+}
+
+#lengthval {
+  margin-left: 100px;
 }
 
 /*Slider*/

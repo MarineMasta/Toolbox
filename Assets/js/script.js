@@ -1,6 +1,11 @@
 // Clear the concole on every refresh
 console.clear();
 
+//Onload alert
+window.onload = function () {
+	alert("Pick your password length and characters to include!");
+}
+
 // Range Slider Properties.
 const sliderProps = {
 	fill: "#333333",
