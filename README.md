@@ -40,7 +40,7 @@ THEN the password is either displayed in an alert or written to the page
 
 # Final Product Screenshot
 
-![](https://github.com/MarineMasta/Toolbox/blob/main/Assets/images/Screenshot.png?raw=true "Screenshot")
+![](https://github.com/MarineMasta/Toolbox/blob/main/Assets/images/Screenshot.PNG "Screenshot")
 
 # Link
 
